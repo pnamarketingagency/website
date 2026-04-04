@@ -1,0 +1,235 @@
+================================================================
+P&A MARKETING AGENCY — IMAGE GUIDE
+================================================================
+This file lists every image placeholder used across the website.
+It is NOT linked to the site — for internal reference only.
+================================================================
+
+
+HOW TO USE THIS GUIDE
+----------------------
+1. Find the image filename in the relevant section below.
+2. Source or shoot a photo matching the description.
+3. Resize and compress it using squoosh.app or tinyjpg.com.
+4. Drop the file into the same folder as your HTML files.
+5. The HTML already references these filenames — it will just work.
+
+For images currently using Unsplash placeholder URLs, find the
+HTML comment directly above the <img> tag. It looks like this:
+    <!-- IMAGE: filename.jpg ... -->
+Replace the src="https://images.unsplash.com/..." with your file.
+
+
+================================================================
+SECTION 1 — LOGO & BRAND
+================================================================
+
+FILE:        logo.jpg
+PAGES:       All pages — Navigation (top) + Footer (bottom)
+DESCRIPTION: The P&A Marketing Agency logo. Use the full logo
+             on a transparent background (PNG preferred) or on
+             white background (JPG). In the footer, the logo is
+             automatically inverted to white via CSS filter.
+FORMAT:      PNG (preferred for transparency) or JPG
+DIMENSIONS:  Min 200px tall, width proportional. Height shown: 34px nav / 30px footer.
+TIPS:        If you have a vector version (.ai, .svg, .eps),
+             export it at 2x resolution for retina screens.
+NOTE:        The HTML includes a text fallback "P&A" in case
+             the image doesn't load — this can be styled further.
+
+
+================================================================
+SECTION 2 — HOME PAGE (index.html)
+================================================================
+
+FILE:        home-banner.jpg
+SECTION:     Hero — right side image
+DESCRIPTION: A professional, clean photo of a marketing team
+             at work, a modern office workspace, or a creative
+             collaboration scene. Should feel warm, approachable,
+             and confident. People are preferred over objects.
+             Avoid stock-photo-looking staged photos.
+DIMENSIONS:  900 × 720px (5:4 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 180KB. Use squoosh.app at 80% quality.
+CURRENT URL: https://images.unsplash.com/photo-1600880292203-757bb62b4baf
+PHOTOGRAPHY: Natural light. Candid preferred. Avoid overly corporate imagery.
+
+---
+
+FILE:        services-website.jpg
+SECTION:     Home → Services Overview — Card 1 (Website & SEO)
+DESCRIPTION: A laptop or desktop monitor showing a clean,
+             professional website design. Could also be a flat-lay
+             of design tools, wireframes, or mockups.
+DIMENSIONS:  800 × 450px (16:9 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 120KB.
+CURRENT URL: https://images.unsplash.com/photo-1547658719-da2b51169166
+
+---
+
+FILE:        services-socialmedia.jpg
+SECTION:     Home → Services Overview — Card 2 (Social Media)
+DESCRIPTION: A phone showing an Instagram or social media feed,
+             or a creative content creation setup. Bright,
+             visual, energetic. Could include content on a screen.
+DIMENSIONS:  800 × 450px (16:9 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 120KB.
+CURRENT URL: https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7
+
+---
+
+FILE:        services-sms.jpg
+SECTION:     Home → Services Overview — Card 3 (SMS Marketing)
+DESCRIPTION: A close-up of a smartphone showing a clean message
+             or notification. Clean background preferred.
+             Avoid anything too technical-looking.
+DIMENSIONS:  800 × 450px (16:9 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 120KB.
+CURRENT URL: https://images.unsplash.com/photo-1563013544-824ae1b704d3
+
+---
+
+FILE:        services-email.jpg
+SECTION:     Home → Services Overview — Card 4 (Email Marketing)
+DESCRIPTION: A laptop open to a clean email interface, or a
+             person reviewing campaigns on screen. Modern,
+             professional setting. Good lighting.
+DIMENSIONS:  800 × 450px (16:9 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 120KB.
+CURRENT URL: https://images.unsplash.com/photo-1596526131083-e8c633c948d2
+
+---
+
+FILE:        partner-ozshine-logo.jpg (or .png)
+SECTION:     Home → Trusted Partners — Oz Shine card
+DESCRIPTION: The Oz Shine Hand Car Wash business logo.
+             Ask them directly for their logo file.
+DIMENSIONS:  200 × 200px (square)
+FORMAT:      PNG with transparent background preferred
+COMPRESSION: Under 30KB.
+NOTE:        Currently using an emoji (🚗) as a placeholder.
+             Replace by adding an <img> inside the .partner-logo-wrap div.
+
+---
+
+FILE:        partner-footballrb-logo.jpg (or .png)
+SECTION:     Home → Trusted Partners — Football RB card
+DESCRIPTION: The Football RB club logo.
+DIMENSIONS:  200 × 200px (square)
+FORMAT:      PNG with transparent background preferred
+COMPRESSION: Under 30KB.
+NOTE:        Currently using an emoji (⚽) as a placeholder.
+
+---
+
+FILE:        partner-elegancebyjot-logo.jpg (or .png)
+SECTION:     Home → Trusted Partners — Elegance by Jot card
+DESCRIPTION: The Elegance by Jot business logo.
+DIMENSIONS:  200 × 200px (square)
+FORMAT:      PNG with transparent background preferred
+COMPRESSION: Under 30KB.
+NOTE:        Currently using an emoji (💅) as a placeholder.
+
+
+================================================================
+SECTION 3 — ABOUT PAGE (about.html)
+================================================================
+
+FILE:        about-team.jpg
+SECTION:     About → Who We Are — left image
+DESCRIPTION: A candid or semi-posed photo of the P&A team.
+             Could be the founders, team members at a desk,
+             brainstorming, or on a video call. Authenticity
+             matters here — avoid overly staged imagery.
+             If solo founder, a clean professional portrait works.
+DIMENSIONS:  900 × 675px (4:3 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 180KB.
+CURRENT URL: https://images.unsplash.com/photo-1522202176988-66273c2fd55f
+PHOTOGRAPHY: Natural window light. Relaxed, approachable expression.
+             A blurred background (shallow depth of field) adds polish.
+
+---
+
+FILE:        about-growth.jpg
+SECTION:     About → Growth Focus — right image
+DESCRIPTION: A strategic planning or goal-setting scene.
+             Could be a whiteboard with strategy, a laptop with
+             data/analytics, or a team reviewing a report.
+             Clean and professional.
+DIMENSIONS:  900 × 675px (4:3 ratio)
+FORMAT:      JPG
+COMPRESSION: Target under 160KB.
+CURRENT URL: https://images.unsplash.com/photo-1551288049-bebda4e38f71
+
+
+================================================================
+SECTION 4 — SOCIAL MEDIA ICONS (footer, all pages)
+================================================================
+
+FILE:        instagram-icon.png
+SECTION:     Footer → Social row (all pages)
+DESCRIPTION: The official Instagram logo in white.
+             Currently sourced from: https://cdn.simpleicons.org/instagram/ffffff
+             Download and host locally for reliability.
+DIMENSIONS:  64 × 64px
+FORMAT:      PNG or SVG
+NOTE:        Displayed at 18×18px. Hosted on SimpleIcons CDN.
+             To host locally: save as instagram-icon.png and update the src.
+
+---
+
+FILE:        linkedin-icon.png
+SECTION:     Footer → Social row (all pages)
+DESCRIPTION: The official LinkedIn logo in white.
+             Currently sourced from: https://cdn.simpleicons.org/linkedin/ffffff
+             Download and host locally for reliability.
+DIMENSIONS:  64 × 64px
+FORMAT:      PNG or SVG
+NOTE:        Displayed at 18×18px. Update href="#" with your LinkedIn URL.
+
+
+================================================================
+GENERAL TIPS
+================================================================
+
+COMPRESSION TOOLS
+-----------------
+• squoosh.app      — Best quality/size control. Use WebP for modern browsers.
+• tinyjpg.com      — Quick drag-and-drop compression for JPG and PNG.
+• imageoptim.com   — Mac app for batch compression.
+
+FORMATS AT A GLANCE
+-------------------
+• JPG  — photos, hero images, cards. Set quality 75–85%.
+• PNG  — logos, icons, anything needing transparency.
+• WebP — best modern format. Smaller files, same quality.
+         Use with a JPG fallback for older browsers.
+• SVG  — ideal for logos and icons. Resolution-independent.
+
+SIZING GUIDELINES
+-----------------
+• Never upload images larger than needed.
+• Hero images: 900px wide is plenty for most screens.
+• Service card images: 800px wide max.
+• Logo: any size, will be scaled by CSS.
+• Always provide a descriptive alt attribute for accessibility.
+
+PHOTOGRAPHY STYLE FOR MARKETING AGENCY
+---------------------------------------
+• Natural light wherever possible — avoid harsh flash.
+• Warm, professional tones that feel real, not stock.
+• People working, collaborating, thinking — action beats pose.
+• Clean, uncluttered backgrounds add to the professional feel.
+• Phones, laptops, and monitors showing real content add credibility.
+• Australian settings add local trust — think QLD architecture,
+  recognisable spaces, or subtle local cues.
+
+================================================================
+END OF IMAGE GUIDE
+================================================================
