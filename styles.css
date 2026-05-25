@@ -4,7 +4,7 @@
    ================================================ */
 
 /* 1. GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 
 /* 2. RESET */
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -27,7 +27,7 @@ button { font-family: inherit; }
   --border:       #E5E7EB;
   --card-bg:      #FFFFFF;
 
-  --font-display: 'Syne', sans-serif;
+  --font-display: 'Poppins', sans-serif;
   --font-body:    'Plus Jakarta Sans', sans-serif;
 
   --radius:       12px;
@@ -699,7 +699,10 @@ p  { font-size: 1rem; line-height: 1.75; color: var(--body-text); }
   width: 18px;
   height: 18px;
   object-fit: contain;
-  /* Social icon images should be white; if they're dark, use filter below */
+}
+.social-btn img.icon-invert {
+  /* Invert and brighten only icons that need it (e.g., dark PNGs) */
+  filter: invert(1) brightness(2);
 }
 .social-btn:hover {
   border-color: var(--blue);
@@ -1003,6 +1006,14 @@ p  { font-size: 1rem; line-height: 1.75; color: var(--body-text); }
   font-weight: 700;
   color: var(--blue);
   flex-shrink: 0;
+}
+img.review-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  display: block;
 }
 .review-name { font-size: 0.88rem; font-weight: 600; color: var(--black); }
 .review-biz  { font-size: 0.78rem; color: var(--muted); }
